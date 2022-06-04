@@ -58,7 +58,23 @@ footer {
   font-size: 20px;
   font-family: sans-serif;
 }
-
+.body-tienda {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    328deg,
+    rgba(2, 0, 36, 1) 4%,
+    rgba(137, 187, 244, 0.9472163865546218) 40%
+  );
+}
+.nav-tienda {
+  background: rgb(84, 126, 173);
+  background: linear-gradient(
+    328deg,
+    rgba(84, 126, 173, 0.9640231092436975) 29%,
+    rgba(70, 105, 150, 1) 68%,
+    rgba(2, 0, 36, 1) 94%
+  );
+}
 .cardcontainer {
   display: flex;
   justify-content: center;
