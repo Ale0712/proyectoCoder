@@ -1,0 +1,13 @@
+@import "./variables";
+
+.carousel-index {
+  font-family: sans-serif;
+  & img {
+    max-height: 850px;
+  }
+  & h5 {
+    font-size: 40px;
+    font-family: sans-serif;
+    color: $blanco;
+  }
+}
