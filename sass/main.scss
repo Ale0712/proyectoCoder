@@ -1,7 +1,10 @@
-@import "./parciales/variables";
-@import "./parciales/reset";
-@import "./parciales/body";
-@import "./parciales/navbar-nav";
-@import "./parciales/carousel";
-@import "./parciales/iconos-index";
-@import "./parciales/footer-index";
+@import "./parciales-index/variables";
+@import "./parciales-index/reset";
+@import "./parciales-tienda/mixin";
+@import "./parciales-tienda/map";
+@import "./parciales-index/body";
+@import "./parciales-index/navbar-nav";
+@import "./parciales-index/carousel";
+@import "./parciales-index/iconos-index";
+@import "./parciales-tienda/productos-tienda";
+@import "./parciales-tienda/footer";

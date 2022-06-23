@@ -1,0 +1,28 @@
+.productos-tienda {
+  & img {
+    max-height: 300px;
+  }
+  & p {
+    color: map-get($colores, "text");
+    @include p;
+  }
+  & button {
+    font-size: 20px;
+    width: 150px;
+    margin-bottom: 10px;
+    background-color: map-get($colores, "btn");
+
+    & .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      @include btn;
+    }
+  }
+}
+
+.btn--aceptar {
+  @extend .btn;
+  border-width: 3px;
+  padding: 10px;
+}
