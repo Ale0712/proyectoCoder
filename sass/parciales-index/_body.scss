@@ -3,3 +3,6 @@
 body {
   background-color: map-get($colores, "background");
 }
+.body-2 {
+  background-color: $blanco;
+}

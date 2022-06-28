@@ -1,0 +1,22 @@
+.container {
+  & h3 {
+    font-size: 3rem;
+  }
+  & label {
+    font-size: 20px;
+    color: map-get($colores, "text");
+  }
+  & button {
+    font-size: 20px;
+    width: 150px;
+    margin-bottom: 10px;
+    background-color: map-get($colores, "btn");
+  }
+  & ul {
+    & li {
+      font-size: 20px;
+      font-family: sans-serif;
+      font-weight: bold;
+    }
+  }
+}

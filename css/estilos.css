@@ -3,7 +3,10 @@
   padding: 0; }
 
 body {
-  background-color: pink; }
+  background-color: #eff3f8; }
+
+.body-2 {
+  background-color: white; }
 
 .navbar-nav {
   font-size: 20px; }
@@ -18,11 +21,11 @@ body {
   .carousel-index h5 {
     font-size: 40px;
     font-family: sans-serif;
-    color: #edf2f7; }
+    color: white; }
 
 .iconos-index a {
   text-decoration: none;
-  color: #edf2f7;
+  color: white;
   margin: 10px;
   font-size: 20px; }
   .iconos-index a i:hover {
@@ -34,7 +37,7 @@ body {
   max-height: 300px; }
 
 .productos-tienda p {
-  color: purple;
+  color: blue;
   font-size: 20px;
   font-family: sans-serif; }
 
@@ -64,5 +67,36 @@ body {
   border-width: 3px;
   padding: 10px; }
 
+.container h1 {
+  color: blue;
+  font-family: sans-serif;
+  font-size: 3rem; }
+
+.container p {
+  font-size: 20px;
+  font-family: sans-serif;
+  color: black; }
+
+.container img {
+  height: 300px; }
+
+.container h3 {
+  font-size: 3rem; }
+
+.container label {
+  font-size: 20px;
+  color: blue; }
+
+.container button {
+  font-size: 20px;
+  width: 150px;
+  margin-bottom: 10px;
+  background-color: green; }
+
+.container ul li {
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: bold; }
+
 .footer h4 {
-  color: purple; }
+  color: white; }

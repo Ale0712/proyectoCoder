@@ -1,0 +1,15 @@
+.container {
+  & h1 {
+    color: map-get($colores, "text");
+    font-family: sans-serif;
+    font-size: 3rem;
+  }
+  & p {
+    font-size: 20px;
+    font-family: sans-serif;
+    color: $negro;
+  }
+  & img {
+    height: 300px;
+  }
+}
