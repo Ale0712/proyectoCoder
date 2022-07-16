@@ -3,7 +3,8 @@
   padding: 0; }
 
 body {
-  background-color: #eff3f8; }
+  background-color: #eff3f8;
+  margin-top: 60px; }
 
 .body-2 {
   background-color: white; }
@@ -15,13 +16,13 @@ body {
     transition: ease-in-out 0.1s; }
 
 .carousel-index {
-  font-family: sans-serif; }
+  font-family: "Roboto"; }
   .carousel-index img {
-    max-height: 850px; }
-  .carousel-index h5 {
-    font-size: 40px;
-    font-family: sans-serif;
-    color: white; }
+    height: 80vh; }
+  .carousel-index button {
+    font-size: 20px;
+    width: 150px;
+    margin-bottom: 10px; }
 
 .iconos-index a {
   text-decoration: none;
@@ -39,7 +40,7 @@ body {
 .productos-tienda p {
   color: blue;
   font-size: 20px;
-  font-family: sans-serif; }
+  font-family: "Roboto"; }
 
 .productos-tienda button {
   font-size: 20px;
@@ -69,12 +70,12 @@ body {
 
 .container h1 {
   color: blue;
-  font-family: sans-serif;
+  font-family: "Roboto";
   font-size: 3rem; }
 
 .container p {
   font-size: 20px;
-  font-family: sans-serif;
+  font-family: "Roboto";
   color: black; }
 
 .container img {
@@ -95,7 +96,7 @@ body {
 
 .container ul li {
   font-size: 20px;
-  font-family: sans-serif;
+  font-family: "Roboto";
   font-weight: bold; }
 
 .footer h4 {

@@ -1,13 +1,13 @@
 @import "./variables";
 
 .carousel-index {
-  font-family: sans-serif;
+  font-family: "Roboto";
   & img {
-    max-height: 850px;
+    height: 80vh;
   }
-  & h5 {
-    font-size: 40px;
-    font-family: sans-serif;
-    color: $blanco;
+  & button {
+    font-size: 20px;
+    width: 150px;
+    margin-bottom: 10px;
   }
 }

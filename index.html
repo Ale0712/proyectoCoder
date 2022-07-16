@@ -12,17 +12,17 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
     integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   <title>Tienda Los Lobos</title>
   <link rel="stylesheet" href="css/estilos.css">
-
 </head>
 
 <body>
   <header>
-
-    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #69a7d4" ;>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #69a7d4" ;>
       <div class=" container-fluid">
-        <a class="navbar-brand" href="#"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
           aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -51,7 +51,6 @@
         </div>
       </div>
     </nav>
-
   </header>
 
   <main class="carousel-index">
@@ -68,22 +67,22 @@
         <div class="carousel-item active">
           <img src="./assets/ropa-hero.jpg" class="d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block">
-            <h1>Tienda Los Lobos</h1>
-            <p>La mejor Tienda de Ropa</p>
+            <h1>Los Lobos</h1>
+            <a class="nav-link active" href="./vistas/buzos.html"><button class="btn btn-primary">Tienda</button></a>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="./assets/ropa 2.jpg" class="d-block w-100" alt="...">
+          <img src="./assets/baner incio 4.jpg" class="d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block">
-            <h1>Tienda Los Lobos</h1>
-            <p>La mejor tienda de Ropa</p>
+            <h1> Los Lobos</h1>
+            <a class="nav-link active" href="./vistas/buzos.html"><button class="btn btn-primary">Tienda</button></a>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="./assets/ropa 4.jpg" class="d-block w-100" alt="...">
+          <img src="./assets/baner inicio 3.jpg" class="d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block">
-            <h1>Tienda Los Lobos</h1>
-            <p>La mejor tienda de Ropa</p>
+            <h1>Los Lobos</h1>
+            <a class="nav-link active" href="./vistas/buzos.html"><button class="btn btn-primary">Tienda</button></a>
           </div>
         </div>
       </div>
@@ -98,8 +97,41 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
-
   </main>
+  <div class="productos-tienda container text-center mb-4 mt-4">
+    <section class="row">
+      <div class="items-tienda col-12 col-md-6 col-lg-4 ">
+        <img class="img-fluid" src="../assets/remera 2 lobo2.png" alt="">
+        <p>Remera Lobo</p>
+        <a class="nav-link active" href="./vistas/remeras.html"><button class="btn btn-primary">Ver</button></a>
+      </div>
+      <div class="items-tienda col-12 col-md-6 col-lg-4">
+        <img class="img-fluid" src="../assets/buzo trasher celeste.png" alt="">
+        <p>Buzo Trasher Celeste</p>
+        <a class="nav-link active" href="./vistas/buzos.html"><button class="btn btn-primary">Ver</button></a>
+      </div>
+      <div class="items-tienda col-12 col-md-6 col-lg-4">
+        <img class="img-fluid" src="../assets/remera california.png" alt="">
+        <p>Remera California</p>
+        <a class="nav-link active" href="./vistas/remeras.html"><button class="btn btn-primary">Ver</button></a>
+      </div>
+      <div class="items-tienda col-12 col-md-6 col-lg-4">
+        <img class="img-fluid" src="../assets/buzo nike azul.png" alt="">
+        <p>Buzo Nike Azul</p>
+        <a class="nav-link active" href="./vistas/buzos.html"><button class="btn btn-primary">Ver</button></a>
+      </div>
+      <div class="items-tienda col-12 col-md-6 col-lg-4">
+        <img class="img-fluid" src="../assets/remera old school.png" alt="">
+        <p>Remera Old School</p>
+        <a class="nav-link active" href="./vistas/remeras.html"><button class="btn btn-primary">Ver</button></a>
+      </div>
+      <div class="items-tienda col-12 col-md-6 col-lg-4">
+        <img class="img-fluid" src="../assets/buzo yin yang.png" alt="">
+        <p>Buzo Yin Yang</p>
+        <a class="nav-link active" href="./vistas/buzos.html"><button class="btn btn-primary">Ver</button></a>
+      </div>
+    </section>
+  </div>
 
   <footer class="footer bg-dark text-white text-center pt-4">
     <h4>Redes Sociales</h4>
@@ -109,8 +141,6 @@
       <a href=""><i class="fa-brands fa-twitter"></i></a>
     </div>
   </footer>
-
-
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
     crossorigin="anonymous"></script>

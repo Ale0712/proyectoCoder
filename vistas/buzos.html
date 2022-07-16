@@ -12,6 +12,10 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
     integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   <title>Buzos</title>
   <link rel="stylesheet" href="../css/estilos.css">
 </head>
@@ -19,9 +23,8 @@
 <body>
 
   <header>
-    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #69a7d4" ;>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #69a7d4" ;>
       <div class=" container-fluid">
-        <a class="navbar-brand" href="#"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
           aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -54,50 +57,48 @@
 
   <main class="productos-tienda container text-center mb-4 mt-4">
     <section class="row">
-
-      <div class="items-tienda col-12 col-md-6 col-lg-4">
-
+      <div data-aos="zoom-in-down" class="items-tienda col-12 col-md-6 col-lg-4">
         <img class="img-fluid" src="../assets/buzo 2.png" alt="">
         <p>Buzo Thrasher</p>
         <button class="btn btn-primary">Comprar
         </button>
       </div>
-      <div class="items-tienda col-12 col-md-6 col-lg-4">
+      <div data-aos="zoom-in-down" class="items-tienda col-12 col-md-6 col-lg-4">
         <img class="img-fluid" src="../assets/buzo trasher celeste.png" alt="">
         <p>Buzo Trasher Celeste</p>
         <button class="btn btn-primary">Comprar</button>
       </div>
-      <div class="items-tienda col-12 col-md-6 col-lg-4">
+      <div data-aos="zoom-in-down" class="items-tienda col-12 col-md-6 col-lg-4">
         <img class="img-fluid" src="../assets/buzo nike azul.png" alt="">
         <p>Buzo Nike Azul</p>
         <button class="btn btn-primary">Comprar</button>
       </div>
-      <div class="items-tienda col-12 col-md-6 col-lg-4">
+      <div data-aos="zoom-in-down" class="items-tienda col-12 col-md-6 col-lg-4">
         <img class="img-fluid" src="../assets/buzo star wars.png" alt="">
         <p>Buzo Star Wars</p>
         <button class="btn btn-primary">Comprar</button>
       </div>
-      <div class="items-tienda col-12 col-md-6 col-lg-4">
+      <div data-aos="zoom-in-down" class="items-tienda col-12 col-md-6 col-lg-4">
         <img class="img-fluid" src="../assets/buzo nike naranja.png" alt="">
         <p>Buzo Nike Naranja</p>
         <button class="btn btn-primary">Comprar</button>
       </div>
-      <div class="items-tienda col-12 col-md-6 col-lg-4">
+      <div data-aos="zoom-in-down" class="items-tienda col-12 col-md-6 col-lg-4">
         <img class="img-fluid" src="../assets/buzo yin yang.png" alt="">
         <p>Buzo Yin Yang</p>
         <button class="btn btn-primary">Comprar</button>
       </div>
-      <div class="items-tienda col-12 col-md-6 col-lg-4">
+      <div data-aos="zoom-in-down" class="items-tienda col-12 col-md-6 col-lg-4">
         <img class="img-fluid" src="../assets/buzo adidas.png" alt="">
         <p>Buzo Adidas</p>
         <button class="btn btn-primary">Comprar</button>
       </div>
-      <div class="items-tienda col-12 col-md-6 col-lg-4">
+      <div data-aos="zoom-in-down" class="items-tienda col-12 col-md-6 col-lg-4">
         <img class="img-fluid" src="../assets/buzo calavera.png" alt="">
         <p>Buzo Calavera</p>
         <button class="btn btn-primary">Comprar</button>
       </div>
-      <div class="items-tienda col-12 col-md-6 col-lg-4">
+      <div data-aos="zoom-in-down" class="items-tienda col-12 col-md-6 col-lg-4">
         <img class="img-fluid" src="../assets/buzo carita2.png" alt="">
         <p>Buzo Carita</p>
         <button class="btn btn-primary">Comprar</button>
@@ -116,6 +117,13 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
     crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      easing: 'ease-out-back',
+      duration: 1000
+    });
+  </script>
 </body>
 
 </html>

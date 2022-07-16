@@ -1,12 +1,12 @@
 .container {
   & h1 {
     color: map-get($colores, "text");
-    font-family: sans-serif;
+    font-family: "Roboto";
     font-size: 3rem;
   }
   & p {
     font-size: 20px;
-    font-family: sans-serif;
+    font-family: "Roboto";
     color: $negro;
   }
   & img {

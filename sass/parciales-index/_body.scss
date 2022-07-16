@@ -2,6 +2,7 @@
 
 body {
   background-color: map-get($colores, "background");
+  margin-top: 60px;
 }
 .body-2 {
   background-color: $blanco;
